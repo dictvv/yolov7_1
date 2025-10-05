@@ -25,6 +25,6 @@ python train.py \
   --weights '' \
   --name yolov7-tiny-320 \
   --hyp data/hyp.scratch.tiny.yaml \
-  --epochs 300
+  --epochs 100
 
 echo "Training completed!"
