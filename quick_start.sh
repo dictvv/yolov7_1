@@ -16,9 +16,9 @@ fi
 
 # Start training with recommended parameters
 python train.py \
-  --workers 4 \
+  --workers 8 \
   --device 0 \
-  --batch-size 32 \
+  --batch-size 256 \
   --data data/coco.yaml \
   --img 320 320 \
   --cfg cfg/training/yolov7-tiny.yaml \
